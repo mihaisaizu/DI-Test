@@ -1,0 +1,13 @@
+mihai:
+  jms:
+    username: JMS Username
+    password: somepass
+    dburl: SomeUrl
+
+
+---
+spring:
+  profiles: de
+mihai:
+  jms:
+    username: JMS Username $$$$$ In $$$$ GERMAN
